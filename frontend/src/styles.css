@@ -1,0 +1,8 @@
+body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:#f7fafc; color:#111}
+.container{max-width:800px;margin:40px auto;padding:24px;background:#fff;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+h1{margin:0 0 16px}
+.field{display:flex;flex-direction:column;margin-bottom:12px}
+.field label{font-weight:600;margin-bottom:6px}
+select,input,button{padding:8px 10px;border:1px solid #ddd;border-radius:6px}
+button{background:#2563eb;color:#fff;border:0;cursor:pointer}
+.result{margin-top:18px;padding:12px;background:#eef2ff;border-radius:6px}

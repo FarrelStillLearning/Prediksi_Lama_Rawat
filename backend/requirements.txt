@@ -1,0 +1,7 @@
+fastapi==0.95.2
+uvicorn==0.22.0
+pydantic==1.10.9
+scikit-learn
+pandas
+joblib
+flask-cors
