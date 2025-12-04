@@ -1,0 +1,15 @@
+# Netlify configuration for React frontend
+[build]
+  # Build command for Vite
+  command = "cd frontend && npm install && npm run build"
+  # Directory with built static files
+  publish = "frontend/dist"
+
+# Redirect all routes to index.html for client-side routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Environment variables (configure in Netlify UI)
+# VITE_API_BASE = "https://your-backend.onrender.com"

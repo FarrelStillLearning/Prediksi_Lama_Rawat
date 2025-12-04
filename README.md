@@ -2,6 +2,8 @@
 
 full-stack prototype sistem pakar untuk mewadahi pickled model (`random_forest_regressor_model.pkl`) dan Vite + React frontend yang memungkinkan pengguna memasukkan masukan (termasuk nama diagnosis yang mudah dipahami manusia) dan mendapatkan prediksi untuk "Lama Rawat" (lama tinggal dalam hari).
 
+🚀 **[Lihat DEPLOYMENT.md untuk panduan deployment gratis](DEPLOYMENT.md)** (Netlify + Render)
+
 Important notes / assumptions
 - Saya menggunakan model yang kompatibel dengan scikit-learn (atau serupa) yang diserialisasi dengan `joblib.dump` / `pickle` dan menerima Pandas DataFrame dengan nama kolom yang sesuai dengan kunci yang digunakan dalam muatan input.
 

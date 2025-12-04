@@ -4,4 +4,6 @@ pydantic==1.10.9
 scikit-learn
 pandas
 joblib
+flask
 flask-cors
+gunicorn
